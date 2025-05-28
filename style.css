@@ -1,7 +1,49 @@
+body{
+    background-image:url(https://github.com/sebas10333417/portafolio_mejorado/blob/main/fondo.jpg?raw=true);
+}
+
 h1{
     text-align: center;
+    padding-bottom: 20px;
+    border-bottom:  2px solid black;
+}
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
 }
 
 .login{
-    color: brown    ;
+    background-color: bisque;
+    width: 350px;
+    margin: 25px;
+    text-align: center;
+
+}
+
+.portafolio{
+    background-color: bisque;
+    width: 350px;
+    height: 350px;
+    margin:25px;
+    text-align: center;
+}
+
+.personal{
+    background-color: bisque;
+    width: 350px;;
+    margin: 25px;
+    text-align:center
+}
+
+.por_definir{
+    background-color: bisque;
+    width: 350px;
+    margin: 25px;
+    height: 350px;
+}
+
+a{
+    display: flex;  
 }
